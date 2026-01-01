@@ -1,8 +1,8 @@
-import oa from "../assets/oa.png";
-import resume from "../assets/resumes.png";
-import studymaterial from "../assets/stduymat.png";
-import mock from "../assets/mock.png";
-import roadmap from "../assets/roadmap.png";
+import oa from "../assets/oa.webp";
+import resume from "../assets/resumes.webp";
+import studymaterial from "../assets/stduymat.webp";
+import mock from "../assets/mock.webp";
+import roadmap from "../assets/roadmap.webp";
 
 const placementMaterial=[
     {id:1,image:oa,link:"https://mega.nz/folder/ApB0XbxR#PITneKhHPKmFjuh_rijW0Q/folder/8xhHmAxS"},

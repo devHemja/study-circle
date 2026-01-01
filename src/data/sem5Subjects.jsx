@@ -1,10 +1,10 @@
-import cloudcomp from "../assets/cloud.png";
-import distcomp from "../assets/distcomp.png";
-import mobilecomp from "../assets/mobile.png";
-import minorproject from "../assets/minorproject.png";
-import pyq from "../assets/pyq.png";
-import pattern from "../assets/pattern.png";
-import syllabus from "../assets/syllabus.png"
+import cloudcomp from "../assets/cloud.webp";
+import distcomp from "../assets/distcomp.webp";
+import mobilecomp from "../assets/mobile.webp";
+import minorproject from "../assets/minorproject.webp";
+import pyq from "../assets/pyq.webp";
+import pattern from "../assets/pattern.webp";
+import syllabus from "../assets/syllabus.webp"
 
 
 const sem5Subjects=[

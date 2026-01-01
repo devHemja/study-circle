@@ -1,9 +1,9 @@
-import os from "../assets/os.png";
-import csa from "../assets/csa.png";
-import clang from "../assets/clang.png";
-import numA from "../assets/numAyls.png";
-import eng from "../assets/eng.png";
-import syllabus from "../assets/syllabus.png"
+import os from "../assets/os.webp";
+import csa from "../assets/csa.webp";
+import clang from "../assets/clang.webp";
+import numA from "../assets/numAyls.webp";
+import eng from "../assets/eng.webp";
+import syllabus from "../assets/syllabus.webp"
 
 const sem1Subjects=[
     {id:1,image:syllabus,link:"#"},

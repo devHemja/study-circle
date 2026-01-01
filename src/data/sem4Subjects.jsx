@@ -1,13 +1,13 @@
-import AIML from "../assets/AIML.png";
-import softcomp from "../assets/softcomp.png";
-import netSecurity from "../assets/networksecurity.png";
-import advjava from "../assets/advjava.png";
-import iot from "../assets/iot.png";
-import graphics from "../assets/graphics.png";
-import datamining from "../assets/datamining.png";
-import coo from "../assets/coo.png";
-import pyq from "../assets/pyq.png";
-import syllabus from "../assets/syllabus.png"
+import AIML from "../assets/AIML.webp";
+import softcomp from "../assets/softcomp.webp";
+import netSecurity from "../assets/networksecurity.webp";
+import advjava from "../assets/advjava.webp";
+import iot from "../assets/iot.webp";
+import graphics from "../assets/graphics.webp";
+import datamining from "../assets/datamining.webp";
+import coo from "../assets/coo.webp";
+import pyq from "../assets/pyq.webp";
+import syllabus from "../assets/syllabus.webp"
 
 
 const sem4Subjects=[

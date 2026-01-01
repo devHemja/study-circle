@@ -1,10 +1,10 @@
-import java from "../assets/java.png";
-import datasci from "../assets/datascience.png";
-import ada from "../assets/ada.png";
-import cn from "../assets/cn.png";
-import cd from "../assets/cd.png";
-import pyq from "../assets/pyq.png";
-import syllabus from "../assets/syllabus.png"
+import java from "../assets/java.webp";
+import datasci from "../assets/datascience.webp";
+import ada from "../assets/ada.webp";
+import cn from "../assets/cn.webp";
+import cd from "../assets/cd.webp";
+import pyq from "../assets/pyq.webp";
+import syllabus from "../assets/syllabus.webp"
 
 
 

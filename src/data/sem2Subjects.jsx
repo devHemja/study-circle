@@ -1,10 +1,10 @@
-import dsa from "../assets/dsa.png";
-import statistics  from "../assets/stcomp.png";
-import softEngg from "../assets/softeng.png";
-import toc from "../assets/toc.png";
-import dbms from "../assets/dbms.png";
-import pyq from "../assets/pyq.png";
-import syllabus from "../assets/syllabus.png"
+import dsa from "../assets/dsa.webp";
+import statistics  from "../assets/stcomp.webp";
+import softEngg from "../assets/softeng.webp";
+import toc from "../assets/toc.webp";
+import dbms from "../assets/dbms.webp";
+import pyq from "../assets/pyq.webp";
+import syllabus from "../assets/syllabus.webp"
 
 
 const sem2Subjects=[
