@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Cards from "../components/cards";
 import SubjectImageCard from "../components/subjectImageCard";
+import { FaArrowLeft } from "react-icons/fa";
 
 import banner from "../assets/banner.png";
 
@@ -27,7 +28,7 @@ function Home() {
     { img: sem3, sem: 3 },
     { img: sem4, sem: 4 },
     { img: sem5, sem: 5 },
-    { img: placement, sem:6 }, 
+    { img: placement, sem: 6 },
   ];
 
   // Decide which subjects to show
@@ -43,12 +44,24 @@ function Home() {
 
   return (
     <div className="bg-gray-100 min-h-screen">
-
       {/* 🔹 Banner */}
       <div
-        className="w-full h-72 md:h-96 bg-cover bg-center"
-        style={{ backgroundImage: `url(${banner})` }}
-      />
+        className="
+  w-full
+  aspect-[16/7]
+  sm:aspect-[16/6]
+  md:aspect-[16/5]
+  max-h-[420px]
+  overflow-hidden
+"
+      >
+        <img
+          src={banner}
+          alt="StudyCircle Banner"
+          className="w-full h-full object-cover"
+          loading="eager"
+        />
+      </div>
 
       {/* 🔹 Semester Cards */}
       {!activeSem && (
@@ -68,11 +81,18 @@ function Home() {
       {/* 🔹 Subject Cards (Sem 1 / Sem 2) */}
       {activeSem && (
         <div className="max-w-6xl mx-auto px-6 py-12">
-
           {/* Heading */}
-          <h2 className="text-3xl font-bold text-center text-black mb-10">
-            Semester {activeSem} Subjects
-          </h2>
+          <div className="relative flex items-baseline justify-center">
+            <button
+              onClick={() => setActiveSem(null)}
+              className="absolute left-0 bg-black p-3 text-white flex items-center justify-center rounded-full shadow-2xl cursor-pointer"
+            >
+              <FaArrowLeft className="text-xl" />
+            </button>
+            <h2 className="text-3xl font-bold text-center text-black mb-10">
+              Subjects
+            </h2>
+          </div>
 
           {/* Subjects Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
@@ -86,28 +106,9 @@ function Home() {
           </div>
 
           {/* Back Button */}
-          <div className="flex justify-center mt-14">
-            <button
-              onClick={() => setActiveSem(null)}
-              className="
-                bg-black text-white
-                px-12 py-3
-                rounded-xl
-                shadow-lg
-                hover:bg-yellow-400
-                hover:text-black
-                transition
-                duration-300
-                font-semibold
-              "
-            >
-              ⬅ Back to Semesters
-            </button>
-          </div>
-
+          <div className="flex justify-center mt-14"></div>
         </div>
       )}
-
     </div>
   );
 }
