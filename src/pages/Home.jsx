@@ -5,12 +5,12 @@ import { FaArrowLeft } from "react-icons/fa";
 
 import banner from "../assets/banner.png";
 
-import sem1 from "../assets/semester1.png";
-import sem2 from "../assets/semester2.png";
-import sem3 from "../assets/semester3.png";
-import sem4 from "../assets/semester4.png";
-import sem5 from "../assets/semester5.png";
-import placement from "../assets/placement.png";
+import sem1 from "../assets/semester1.webp";
+import sem2 from "../assets/semester2.webp";
+import sem3 from "../assets/semester3.webp";
+import sem4 from "../assets/semester4.webp";
+import sem5 from "../assets/semester5.webp";
+import placement from "../assets/placement.webp";
 
 import sem1Subjects from "../data/sem1Subjects";
 import sem2Subjects from "../data/sem2Subjects";
