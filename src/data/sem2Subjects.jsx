@@ -8,7 +8,7 @@ import syllabus from "../assets/syllabus.webp"
 
 
 const sem2Subjects=[
-    {id:1,image:syllabus,link:"#"},
+    {id:1,image:syllabus,link:"https://mega.nz/file/jy5CmYoL#8vBKf70yR5NBwrfbUdP5BKMmm53OaLS6yqJSN0uCgmY"},
     {id:2,image:dsa,link:"https://mega.nz/folder/G6hjUKCC#6xAbFAn9DWhrXJi5yYVOUQ"},
     {id:3,image:statistics,link:"https://mega.nz/folder/LmowFCZS#G3GVWnHDku-1bjK0jlGTuw"},
     {id:4,image:softEngg,link:"https://mega.nz/folder/Tj5FzbTD#k0-lJhoLx3_bEAukDoK3vw"},

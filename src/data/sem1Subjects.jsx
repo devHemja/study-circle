@@ -6,7 +6,7 @@ import eng from "../assets/eng.webp";
 import syllabus from "../assets/syllabus.webp"
 
 const sem1Subjects=[
-    {id:1,image:syllabus,link:"#"},
+    {id:1,image:syllabus,link:"https://mega.nz/file/7mIRzQ7Y#KfuHicBq7c3ti4R62S_GR8HtXSLk3IfAdj6Ti9n0BRw"},
     {id:2,image:os,link:"https://mega.nz/folder/mupk0CrL#hXlGGKeu50QFrscg3U7AQw"},
     {id:3,image:csa,link:"https://mega.nz/folder/LnIj3QKY#5FIQ9Ds7AxrW5iaFUlGGNg"},
     {id:4,image:clang,link:"https://mega.nz/folder/yjgz3TjR#yZlXsr37fLAs4OZWTtU9kQ"},

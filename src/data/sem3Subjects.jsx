@@ -9,7 +9,7 @@ import syllabus from "../assets/syllabus.webp"
 
 
 const sem3Subjects=[
-    {id:1,image:syllabus,link:""},
+    {id:1,image:syllabus,link:"https://mega.nz/file/uipQQACB#NrclRoMZ5lwR2Oj5iEwzWa_wQGHHRq0yJjjETueYUts"},
     {id:2,image:java,link:"https://mega.nz/folder/IpwV3LqI#JBfBg0CcILIsKS1Ciyn3FQ/folder/I1hilBZT"},
     {id:3,image:datasci,link:"https://mega.nz/folder/IpwV3LqI#JBfBg0CcILIsKS1Ciyn3FQ/folder/95wFSQaQ"},
     {id:4,image:ada,link:"https://mega.nz/folder/IpwV3LqI#JBfBg0CcILIsKS1Ciyn3FQ/folder/ckhRlQKL"},

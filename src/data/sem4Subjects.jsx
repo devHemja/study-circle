@@ -11,7 +11,7 @@ import syllabus from "../assets/syllabus.webp"
 
 
 const sem4Subjects=[
-    {id:1,image:syllabus,link:"#"},
+    {id:1,image:syllabus,link:"https://mega.nz/file/XmZ3BJYD#9gT4w8icDg9bPEagLWWuwY7C6tmbhDu8x3jzyISBIac"},
     {id:2,image:AIML,link:"https://mega.nz/folder/MxAxSZwI#ltPUEN3vh8ayGj_Kd_M_5Q/folder/xtQ0BZqK"},
     {id:3,image:softcomp,link:"#"},
     {id:4,image:netSecurity,link:"https://mega.nz/folder/MxAxSZwI#ltPUEN3vh8ayGj_Kd_M_5Q/folder/ghAkFLAR"},
