@@ -36,7 +36,9 @@ export default function ChatBuddy() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           message: userMessage,
-          history: messages // Sends the current history so Gemini remembers context
+          // Gemini's chat history must start with a 'user' turn, so drop the
+          // bot's initial greeting before sending history along
+          history: messages[0]?.role === 'model' ? messages.slice(1) : messages
         }),
       });
 

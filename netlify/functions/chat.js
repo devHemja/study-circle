@@ -1,4 +1,4 @@
-import { GoogleGenAI } from "@google/generative-ai";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
 export default async (req, context) => {
   // Allow only POST requests
@@ -14,10 +14,10 @@ export default async (req, context) => {
       return new Response(JSON.stringify({ error: "API Key missing in backend" }), { status: 500 });
     }
 
-    const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-    
+    const ai = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+
     const model = ai.getGenerativeModel({ 
-      model: "gemini-1.5-flash",
+      model: "gemini-3.5-flash",
       systemInstruction: "You are 'StudyCircle AI', an expert computer science tutor for NITRR MCA students. Break down complex programming, math, and theory concepts cleanly. Use clear formatting, bullet points, and code snippets when relevant."
     });
 
