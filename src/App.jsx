@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import ContactUs from "./pages/ContactUs";
 import Header from "./components/Header";
+import ChatBuddy from './components/ChatBuddy';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/contact" element={<ContactUs />} />
         </Routes>
       </main>
+      <ChatBuddy/>
     </>
   );
 }
